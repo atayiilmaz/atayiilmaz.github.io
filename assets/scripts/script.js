@@ -10,6 +10,7 @@ togglebtn.addEventListener("click",function(){
     nav.classList.toggle("open");
 })
 
+/* using typed.js library, added animated header. */
 var typed = new Typed(".input",{
     strings:["Software Developer", "Backend Developer", "Web Developer"],
     typedSpeed:60,
