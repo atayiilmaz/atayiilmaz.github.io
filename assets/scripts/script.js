@@ -12,7 +12,7 @@ togglebtn.addEventListener("click",function(){
 
 /* using typed.js library, added animated header. */
 var typed = new Typed(".input",{
-    strings:["Software Developer", "Backend Developer", "Web Developer"],
+    strings:["DevOps Enginner", "Backend Developer", "Software Developer"],
     typedSpeed:60,
     backSpeed:55,
     loop:true
