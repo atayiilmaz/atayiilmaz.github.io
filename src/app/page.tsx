@@ -19,7 +19,7 @@ export default function Home() {
         <h1 className="text-4xl font-bold mb-2">Ata Berk Yılmaz</h1>
         <p className="text-center mb-4">I am a software developer experience in backend development and DevOps.</p>
         <a
-          href="https://www.mediafire.com/file/fi1c74e8kid72if/AtaBerkYilmaz_BackendDeveloper_en.pdf/file"
+          href="/AtaBerkYilmaz_BackendDeveloper_en.pdf"
           download
           className="bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-700 transition-colors duration-300"
         >
