@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
+import Navbar from "./components/Navbar"; 
 import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"] });
@@ -16,7 +17,21 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+        <Navbar />
+
+        {/* Main Content */}
+        <main className="flex-grow container mx-auto px-4 sm:px-6 lg:px-8">
+          {children}
+        </main>
+
+        {/* Footer */}
+        <footer className="bg-gray-900 text-gray-300 py-4 mt-4">
+          <div className="container mx-auto text-center">
+            <p>© {new Date().getFullYear()} Ata Berk Yılmaz. All rights reserved.</p>
+          </div>
+        </footer>
+      </body>
     </html>
   );
 }

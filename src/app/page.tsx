@@ -4,8 +4,6 @@ import Navbar from './components/Navbar';
 
 export default function Home() {
   return (
-    <main className='flex min-h-screen flex-col'>
-      <Navbar />
       <div className="flex flex-col items-center justify-center min-h-screen py-2">
         <div className="rounded-full overflow-hidden w-60 h-60 mb-4">
           <Image
@@ -44,6 +42,5 @@ export default function Home() {
           </a>
         </footer>
       </div>
-    </main>
   );
 }
