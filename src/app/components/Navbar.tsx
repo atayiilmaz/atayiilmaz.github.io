@@ -16,7 +16,7 @@ const Navbar = () => {
             {isMenuOpen && (
                 <div className="fixed inset-0 bg-black/50 backdrop-blur-sm z-40"></div>
             )}
-            <nav className="sticky top-0 p-3 shadow-md z-50">
+            <nav className="sticky top-0 p-3 backdrop-blur-md shadow-md z-50">
                 <div className="flex flex-wrap items-center justify-between mx-auto">
                     <Link href={"/"} className="text-3xl text-white font-semibold">{"{}"}</Link> 
                     <button
@@ -51,7 +51,7 @@ const Navbar = () => {
                     </button>
 
                     <div className={`${isMenuOpen ? "block" : "hidden"} md:flex flex-col md:flex-row md:space-x-8 w-full md:w-auto mt-4 md:mt-0`} id="navbar">
-                        <ul className="flex flex-col items-center md:flex-row md:space-x-8 w-full">
+                        <ul className="flex flex-col items-center md:flex-row md:space-x-6 w-full">
                             <li>
                                 <Link href={"/"} className={`block py-2 ${
                                         isActive("/") ? "text-white" : "text-[#ADB7BE]"
@@ -72,6 +72,9 @@ const Navbar = () => {
                                     } hover:text-white`}>
                                     Projects
                                 </Link>
+                            </li>
+                            <li>
+                                <Link href="./AtaBerkYilmazCV_en.pdf" className="block py-2 text-[#ADB7BE] hover:text-white" download>CV</Link>
                             </li>
                         </ul>
                     </div>
