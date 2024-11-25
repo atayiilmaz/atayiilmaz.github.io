@@ -11,13 +11,18 @@ const Navbar = () => {
 
     const isActive = (path:string) => pathname === path;
 
+    // Function to handle link click and close the menu
+    const handleLinkClick = () => {
+        setIsMenuOpen(false);
+    };
+
     return (
         <>
             {isMenuOpen && (
-                <div className="fixed inset-0 bg-black/50 backdrop-blur-sm z-40"></div>
+                <div className="fixed inset-0 bg-black/50 border-b backdrop-blur-sm z-40"></div>
             )}
-            <nav className="sticky top-0 p-3 backdrop-blur-md shadow-md z-50">
-                <div className="flex flex-wrap items-center justify-between mx-auto">
+            <nav className="sticky top-0 p-3 backdrop-blur-md border-b border-gray-700 shadow-md z-50">
+                <div className="flex flex-wrap items-center justify-between px-4 mx-auto">
                     <Link href={"/"} className="text-3xl text-white font-semibold">{"{}"}</Link> 
                     <button
                         onClick={() => setIsMenuOpen(!isMenuOpen)}
@@ -55,26 +60,26 @@ const Navbar = () => {
                             <li>
                                 <Link href={"/"} className={`block py-2 ${
                                         isActive("/") ? "text-white" : "text-[#ADB7BE]"
-                                    } hover:text-white`}>
+                                    } hover:text-white`} onClick={handleLinkClick}>
                                     Home
                                     </Link>
                                 </li>
                             <li>
                                 <Link href={"/about"} className={`block py-2 ${
                                         isActive("/about") ? "text-white" : "text-[#ADB7BE]"
-                                    } hover:text-white`}>
+                                    } hover:text-white`} onClick={handleLinkClick}>
                                     About
                                 </Link>
                             </li>
                             <li>
                                 <Link href={"/projects"} className={`block py-2 ${
                                         isActive("/projects") ? "text-white" : "text-[#ADB7BE]"
-                                    } hover:text-white`}>
+                                    } hover:text-white`} onClick={handleLinkClick}>
                                     Projects
                                 </Link>
                             </li>
                             <li>
-                                <Link href="./AtaBerkYilmazCV_en.pdf" className="block py-2 text-[#ADB7BE] hover:text-white" download>CV</Link>
+                                <Link href="./AtaBerkYilmazCV_en.pdf" className="block py-2 text-[#ADB7BE] hover:text-white" download onClick={handleLinkClick}>CV</Link>
                             </li>
                         </ul>
                     </div>

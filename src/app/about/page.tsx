@@ -2,12 +2,12 @@ import React from "react";
 
 export default function About() {
     return (
-        <div className="min-h-screen px-6 sm:px-12 md:px-20">
+        <div className="min-h-screen px-6 sm:px-12 md:px-20 pt-20">
             <div className="max-w-4xl mx-auto">
                 <header className="text-center mb-8">
                     <h1 className="text-4xl font-bold mb-4">About Me</h1>
                 </header>
-                <p className="text-gray-300 mb-8">
+                <p className="text-gray-300 mb-8 text-justify">
                     I have a background in web development, with experience in both frontend
                     and backend development. I've worked with various technologies such as HTML, 
                     CSS, JavaScript, PHP and popular frameworks like Node.js, Laravel. In addition to

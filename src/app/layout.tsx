@@ -26,7 +26,7 @@ export default function RootLayout({
         </main>
 
         {/* Footer */}
-        <footer className="bg-gray-900 text-gray-300 py-4 mt-4">
+        <footer className="text-gray-700 border-t border-gray-700 py-4 mt-4">
           <div className="container mx-auto text-center">
             <p>© {new Date().getFullYear()} Ata Berk Yılmaz. All rights reserved.</p>
           </div>
