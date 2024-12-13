@@ -79,7 +79,7 @@ const Navbar = () => {
                                 </Link>
                             </li>
                             <li>
-                                <Link href="./AtaBerkYilmazCV_en.pdf" className="block py-2 text-[#ADB7BE] hover:text-white" download onClick={handleLinkClick}>CV</Link>
+                                <Link href="./AtaBerkYilmaz_cv.pdf" className="block py-2 text-[#ADB7BE] hover:text-white" download onClick={handleLinkClick}>CV</Link>
                             </li>
                         </ul>
                     </div>
