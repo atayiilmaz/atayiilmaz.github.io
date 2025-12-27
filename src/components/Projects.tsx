@@ -26,7 +26,7 @@ const projects: Project[] = [
   {
     title: 'Portfolio Site',
     description: 'My personal portfolio showcasing my projects and skills',
-    image: '/src/assets/Screenshot 2025-12-24 at 17.50.38.png',
+    image: '/src/assets/portfolio.png',
     tags: ['React', 'Vite', 'TypeScript'],
     github: 'https://github.com/atayiilmaz/atayiilmaz.github.io',
     demo: 'https://atayiilmaz.github.io/',
