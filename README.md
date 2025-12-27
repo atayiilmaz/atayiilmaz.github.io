@@ -1,73 +1,80 @@
-# Welcome to your Lovable project
+# 👨‍💻 Ata Yılmaz - Personal Portfolio
 
-## Project info
+![Project Status](https://img.shields.io/badge/status-active-success.svg)
+![License](https://img.shields.io/badge/license-MIT-blue.svg)
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+This project is a modern personal website developed using **React**, **Vite**, and **Tailwind CSS** to showcase my skills, projects, and professional experience.
 
-## How can I edit this code?
+[View Live Demo](https://atayiilmaz.github.io/)
 
-There are several ways of editing your application.
+---
 
-**Use Lovable**
+## 📸 Screenshots
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+![Home Page Preview](./public/screenshot.png)
 
-Changes made via Lovable will be committed automatically to this repo.
+---
 
-**Use your preferred IDE**
+## 🚀 Tech Stack
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+This project is built using the following technologies and libraries:
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+* **Framework:** [React](https://reactjs.org/)
+* **Build Tool:** [Vite](https://vitejs.dev/) (For fast development and optimized build process)
+* **Styling:** [Tailwind CSS](https://tailwindcss.com/) (Utility-first CSS framework)
+* **Icons:** [React Icons](https://react-icons.github.io/react-icons/) / [Heroicons](https://heroicons.com/)
+* **Deployment:** GitHub Pages
 
-Follow these steps:
+---
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+## ✨ Features
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+* **⚡ Blazing Fast Performance:** Powered by Vite for instant server start and lightning-fast HMR.
+* **📱 Fully Responsive:** Mobile-first design compatible with tablets and desktops using Tailwind CSS.
+* **🎨 Modern UI/UX:** Clean, minimalist, and user-friendly interface.
+* **🧩 Component-Based:** Modular and maintainable code structure with React.
 
-# Step 3: Install the necessary dependencies.
-npm i
+---
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+## 🛠️ Installation & Setup
 
-**Edit a file directly in GitHub**
+Follow these steps to run the project locally on your machine:
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+1.  **Clone the Repository:**
+    ```bash
+    git clone [https://github.com/atayiilmaz/atayiilmaz.github.io.git](https://github.com/atayiilmaz/atayiilmaz.github.io.git)
+    ```
 
-**Use GitHub Codespaces**
+2.  **Navigate to Project Directory:**
+    ```bash
+    cd atayiilmaz.github.io
+    ```
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+3.  **Install Dependencies:**
+    ```bash
+    npm install
+    ```
 
-## What technologies are used for this project?
+4.  **Start Development Server:**
+    ```bash
+    npm run dev
+    ```
 
-This project is built with:
+5.  Open your browser and visit `http://localhost:5173`.
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+---
 
-## How can I deploy this project?
+## 📂 Project Structure
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+```text
+/
+├── public/          # Static assets
+├── src/
+│   ├── components/  # Reusable UI components
+│   ├── assets/      # Images and global styles
+│   ├── pages/       # Page views
+│   ├── App.jsx      # Main application component
+│   └── main.jsx     # Entry point
+├── index.html
+├── tailwind.config.js
+└── vite.config.js

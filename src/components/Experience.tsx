@@ -14,7 +14,7 @@ const experiences: TimelineItem[] = [
     type: 'full-time',
     role: 'Software Engineer',
     company: 'Roasy AI',
-    date: '2023 — Present',
+    date: 'June 2025 — Present',
     description: 'Building a marketing optimization platform called Roasy. Roasy AI is an AI-powered ad optimization platform optimizing mobile app campaigns across Meta and Google in real time.',
   },
   {
